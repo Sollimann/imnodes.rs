@@ -3,6 +3,7 @@ name = "imnodes-sys-bindgen"
 version = "0.1.0"
 authors = ["Benedikt Mandelkow"]
 edition = "2021"
+rust-version = "1.60.0"
 
 [dependencies]
 bindgen = "0.59.2"
