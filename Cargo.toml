@@ -1,0 +1,24 @@
+[package]
+name = "imnodes"
+version = "0.1.0"
+edition = "2021"
+authors = ["Benedikt Mandelkow", "imnodes-rs contributors"]
+description = "Rust bindings to https://github.com/Nelarius/imnodes"
+license = "MIT/Apache-2.0"
+categories = ["gui", "api-bindings"]
+readme = "README.md"
+
+[dependencies]
+imnodes-sys = { version = "0.1.0", path = "imnodes-sys" }
+imgui = "0.8.2"
+
+[features]
+# export all low level functions
+include_low_level_bindings = []
+
+[workspace]
+members = [
+    "imnodes-sys",
+    "imnodes-wgpu-examples",
+    "imnodes-sys-bindgen",
+]
