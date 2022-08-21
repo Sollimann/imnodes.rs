@@ -1,12 +1,13 @@
 [package]
 name = "imnodes"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 authors = ["Benedikt Mandelkow", "imnodes-rs contributors"]
 description = "Rust bindings to https://github.com/Nelarius/imnodes"
 license = "MIT/Apache-2.0"
 categories = ["gui", "api-bindings"]
 readme = "README.md"
+rust-version = "1.60.0"
 
 [dependencies]
 imnodes-sys = { version = "0.1.0", path = "imnodes-sys" }
